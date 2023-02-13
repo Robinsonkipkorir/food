@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    width: 100%;
+    border:1px solid black;
+
+}
+.card{
+    height: 40vh;
+    width: 35vh;
+    margin: 1rem;
+    box-shadow: 1px 1px 5px;
+    content: 'card';
+}
